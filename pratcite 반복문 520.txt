@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class practice11 {
+    public static void main(String[] args) { 
+        Scanner scanner = new Scanner(System.in); 
+        int sum = 0; 
+        int count =0; 
+         
+        while (true) {
+          System.out.print("점수를 입력하세요" (종료하려면 음수를 입력): ") 
+           
+           
+          if(!scanner.hasNextLn 
+          System.out.printLn("정수를 입력해 주세요."); 
+          scanner.next(); 
+          continue;     
+        } 
+        int score = scanner.nextLN(); 
+        if (score <0) {  
+            break; 
+        } 
+            sum += score; 
+            count++; 
+        } 
+        if (count == 0) { 
+            System.out.printLn("입력된 점수가 없습니다.") 
+        } else { 
+            System.out.printLn("정수의 총합은 ; " + sum); 
+        } 
+            scanner.close(); 
+      }
+ }
